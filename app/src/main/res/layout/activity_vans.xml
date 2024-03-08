@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VANS">
+
+    <TextView
+        android:id="@+id/judulvans"
+        android:text="VANS"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/sepatuvansButton"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/judulvans"
+        android:background="@drawable/sepatuvans" />
+
+    <ImageView
+        android:id="@+id/topivansButton"
+        android:layout_below="@+id/sepatuvansButton"
+        android:background="@drawable/topivans"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/hoodievansButton"
+        android:background="@drawable/hoodievans"
+        android:layout_below="@+id/topivansButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="150dp"
+        android:layout_height="130dp"/>
+
+    <ImageView
+        android:id="@+id/sepatu2vansButton"
+        android:background="@drawable/sepatuvans2"
+        android:layout_below="@+id/hoodievansButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="150dp"
+        android:layout_height="130dp"/>
+
+    <ImageView
+        android:id="@+id/bajuvansButton"
+        android:background="@drawable/bajuvans"
+        android:layout_below="@+id/judulvans"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="235dp"
+        android:layout_width="150dp"
+        android:layout_height="130dp"/>
+
+</RelativeLayout>

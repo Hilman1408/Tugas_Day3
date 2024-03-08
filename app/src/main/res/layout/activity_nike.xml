@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NIKE">
+
+    <TextView
+        android:id="@+id/judulnike"
+        android:text="NIKE"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/sendalnikeButton1"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/judulnike"
+        android:background="@drawable/sendalnike1" />
+
+    <ImageView
+        android:id="@+id/sendalnikeButton2"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/sendalnikeButton1"
+        android:background="@drawable/sendalnike2" />
+
+    <ImageView
+        android:id="@+id/sendalnikeButton3"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/sendalnikeButton2"
+        android:background="@drawable/sendalnike3" />
+
+    <ImageView
+        android:id="@+id/sepatunikeButton4"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/sendalnikeButton3"
+        android:background="@drawable/sepatunike1" />
+
+    <ImageView
+        android:id="@+id/sepatunikeButton5"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="230dp"
+        android:layout_below="@+id/judulnike"
+        android:background="@drawable/sepatunike2" />
+
+
+</RelativeLayout>

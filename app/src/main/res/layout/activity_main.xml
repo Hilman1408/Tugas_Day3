@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvintent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALFA SHOP"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/vansButton"
+        android:layout_width="155dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/tvintent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/vans" />
+
+    <ImageView
+        android:id="@+id/ventelaButton"
+        android:layout_width="155dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/vansButton"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ventela" />
+
+    <ImageView
+        android:id="@+id/nikeButton"
+        android:layout_width="155dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/ventelaButton"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/nike" />
+
+</RelativeLayout>
